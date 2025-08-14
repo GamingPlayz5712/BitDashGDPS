@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>SongIDUpload</title>
+    <title>Song ID Upload</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,7 +23,7 @@
     </style>
 </head>
 <body>
-    <h1>Gerador de Song ID</h1>
+    <h1>Song ID Upload</h1>
     <button onclick="gerarID()">Upload</button>
     <div id="id"></div>
 
@@ -31,8 +31,9 @@
         function gerarID() {
             // Gera número aleatório de 4 dígitos
             let songID = Math.floor(1000 + Math.random() * 9000);
-            document.getElementById("id").textContent = "Seu Song ID é: " + songID;
+            document.getElementById("id").textContent = "Your ID is: " + songID;
         }
     </script>
 </body>
 </html>
+
